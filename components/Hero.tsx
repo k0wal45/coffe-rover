@@ -3,9 +3,9 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <header className="w-screen h-screen relative text-primary grid place-items-center">
-      <div className="flex flex-col items-center max-w-2xl gap-6">
-        <h1 className="text-6xl font-display leading-normal font-semibold">
+    <header className="w-screen h-screen relative text-primary grid place-items-center p-6">
+      <div className="flex flex-col items-center justify-center text-center max-w-2xl gap-6 z-10">
+        <h1 className="text-5xl lg:text-6xl font-display leading-normal font-semibold">
           Poczój się jak w domu przy każdym łyku
         </h1>
         <p className="text-xl">
@@ -13,16 +13,15 @@ const Hero = () => {
           samopoczucie
         </p>
         <button className="px-8 py-4 rounded-xl bg-secondary text-xl hover:bg-primary transition-all duration-200 hover:text-black active:scale-95">
-          Zamów teraz!
+          Wynajmij nas!
         </button>
       </div>
       <Image
         width={1920}
         height={1080}
-        loading="lazy"
         src="/img/hero1.jpg"
         alt="Coffe table and coffe beans"
-        className="absolute top-0 left-0 -z-10 w-screen h-screen object-cover"
+        className="absolute top-0 left-0  w-screen h-screen object-cover brightness-70"
       />
     </header>
   );

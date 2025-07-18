@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${font.className} ${fontDisplay.variable} antialiased overflow-x-hidden`}
+        className={`${font.className} ${fontDisplay.variable} antialiased overflow-x-hidden bg-primary`}
       >
         <Navbar />
         {children}
