@@ -17,11 +17,11 @@ const Hero = () => {
         </button>
       </div>
       <Image
-        width={1920}
-        height={1080}
+        width={1500}
+        height={800}
         src="/img/hero1.jpg"
         alt="Coffe table and coffe beans"
-        className="absolute top-0 left-0  w-screen h-screen object-cover brightness-70"
+        className="absolute top-0 left-0 w-screen h-screen object-cover brightness-70"
       />
     </header>
   );
