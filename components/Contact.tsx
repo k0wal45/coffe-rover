@@ -22,7 +22,10 @@ const Contact = () => {
   };
 
   return (
-    <section className="max-w-4xl mx-auto my-12 rounded-2xl shadow-lg bg-white overflow-hidden flex flex-wrap">
+    <section
+      id="kontakt"
+      className="max-w-4xl mx-auto my-12 rounded-2xl shadow-lg bg-white overflow-hidden flex flex-wrap"
+    >
       {/* Form Side */}
       <div className="flex-1 min-w-[340px] p-10 flex flex-col justify-center">
         <h2 className="text-secondary mb-2 text-3xl font-bold">

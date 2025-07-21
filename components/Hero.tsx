@@ -12,9 +12,12 @@ const Hero = () => {
           Komfortowa pauza w twoim dniu gdzie dobry smak spotyka zdrowie i
           samopoczucie
         </p>
-        <button className="px-8 py-4 rounded-xl bg-secondary text-xl hover:bg-primary transition-all duration-200 hover:text-black active:scale-95">
+        <a
+          href="#kontakt"
+          className="px-8 py-4 rounded-xl bg-secondary text-xl hover:bg-primary transition-all duration-200 hover:text-black active:scale-95"
+        >
           Wynajmij nas!
-        </button>
+        </a>
       </div>
       <Image
         width={1920}
