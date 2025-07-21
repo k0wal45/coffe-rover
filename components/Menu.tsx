@@ -53,7 +53,7 @@ const Menu = () => {
             height={500}
             src="/img/coffe.jpg"
             alt="kawa"
-            className="absolute translate-x-1/3 w-72 aspect-square object-cover rounded-xl"
+            className="absolute translate-x-1/3 w-60 lg:w-72 aspect-square object-cover rounded-xl"
           />
 
           <Image
@@ -61,7 +61,7 @@ const Menu = () => {
             height={500}
             src="/img/coffe2.jpg"
             alt="kawa"
-            className="w-60 h-60 object-cover rounded-xl"
+            className="w-40 lg:w-60 h-60 object-cover rounded-xl"
           />
 
           <Image
@@ -69,7 +69,7 @@ const Menu = () => {
             height={500}
             src="/img/coffe3.jpg"
             alt="kawa"
-            className="w-60 h-60 object-cover rounded-xl"
+            className="w-40 lg:w-60 h-60 object-cover rounded-xl"
           />
         </div>
       </div>
