@@ -17,10 +17,14 @@ const Hero = () => {
         </button>
       </div>
       <Image
-        width={1500}
-        height={800}
+        width={1920}
+        height={1080}
         src="/img/hero1.jpg"
         alt="Coffe table and coffe beans"
+        fill
+        priority
+        quality={80}
+        placeholder="blur"
         className="absolute top-0 left-0 w-screen h-screen object-cover brightness-70"
       />
     </header>
